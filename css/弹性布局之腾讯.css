@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*html,body{
+	width: 100%;
+	height: 100%;
+	
+}*/
+.bg{
+	/*width: 100%;
+	height: 100%;*/
+	background-image: url(../teng/bg.png);
+	/*background-size: 100% 100%;*/
+	background-repeat: no-repeat;
+}
+.bg .logo{
+	/*100   90    70*/
+	padding-left: 7.41289844329133%;
+	height:18.36734693877551%;
+	padding-top: 5.66784%;
+}
+.bg .tu{
+	width: 940px;
+	/*height: 400px;*/
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+}
+.bg .tu .left{
+	display: flex;
+	/*470*/
+	width: 50%;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.left img:nth-child(2n+1) {
+	/*300  130  15*/
+	width: 63.82978723404255%;
+	height: 32.5%;
+	margin-right: 3.19148936170213%;
+	animation: pulse 1s ease 0s 1 forwards;
+}
+.left img:nth-child(2n) {
+	/* 150  130*/
+	width: 31.91489361702128%;
+	height: 32.5%;
+	animation: pulse 1s ease 0.4s 1 forwards;
+}
+.bg .tu .right{
+	display: flex;
+	/*470*/
+	width: 50%;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+.right img:nth-child(2n+1) {
+	/*150 130 */
+	width: 31.91489361702128%;
+	height: 32.5%;
+	animation: pulse 1s ease 0.2s 1 forwards;
+}
+.right img:nth-child(2n) {
+	/*300 130*/
+	width: 63.82978723404255%;
+	height: 32.5%;
+	animation: pulse 1s ease 0.1s 1 forwards;
+}
+.bg .tu img:hover{
+	animation-name: shake;
+	animation-duration: 0.3s;
+}

@@ -1,0 +1,20 @@
+
+@media screen and (max-width:640px) {
+	.main{
+		min-width: 400px;
+	}
+	.cdiv4_box .cdiv4_otop .mb .mb_p .p1{
+		font-size: 20px;
+	}
+	.cdiv4_box .cdiv4_otop .mb .mb_p .p2{
+		font-size: 12px;
+	}
+	.cdiv4_box .cdiv4_one_p{
+		font-size: 13px;
+	}
+} 
+/*@media only screen and (max-width:480px ) {
+	.cdiv4{
+		width: 48%;
+	}
+}*/

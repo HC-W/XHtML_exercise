@@ -1,0 +1,62 @@
+.big{
+	width: 500px;
+	height: 100px;
+	color: white;
+	font-size: 45px;
+	text-align: left;
+}
+.head,.body,.en{
+	overflow: hidden;
+}
+.head div{
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	line-height: 1.8em;
+	float: left;
+}
+.body{
+	height: 400px;
+}
+.left,.right{
+	float: left;
+}
+.left .six{
+	width: 350px;
+	height: 150px;
+	background-color: red;
+}
+.left .en{
+	overflow: hidden;
+}
+.left .en .eight{
+	width: 100px;
+	height: 150px;
+	background-color: blue;
+	float: left;
+}
+.left .en .nine{
+	width: 250px;
+	height: 150px;
+	background-color: yellow;
+	float: left;
+}
+.left .el{
+	width: 350px;
+	height: 100px;
+	background-color: darkgreen
+}
+.right .seven{
+	width: 150px;
+	height: 200px;
+	background-color: cornflowerblue;
+}
+.right .ten{
+	width: 150px;
+	height: 200px;
+	background-color: lightsteelblue;
+}
+.foot{
+	height: 100px;
+	background-color: #CB36D9;
+}

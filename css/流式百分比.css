@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header img{
+	width: 100%;
+}
+.div2{
+	padding: 20px;
+}
+.div2_top{
+	font-size: 15px;
+	text-indent: 2em;
+	font-weight: bold;
+	margin-bottom: 15px;
+	/*border:1px solid green;*/
+}
+.sp1{
+	color: red;
+}
+.div2_center{
+	width: 100%;
+	/*border:1px solid red;*/
+}
+.div2_center .img1{
+	width: 48%;
+	margin-right: 2%;
+}
+.div2_center .img2{
+	width: 48%;
+}
+.div2_bottom{
+	font-size: 13px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 25px;
+	padding-bottom:10px ;
+	border-bottom: 1px solid #FFDFB4;
+}
+

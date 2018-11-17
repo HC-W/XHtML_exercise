@@ -1,0 +1,63 @@
+body{
+/*	margin: 0;*/
+	padding: 20px;
+}
+.main{
+	margin: 0 auto;
+	/*width: 1214px;*/
+	padding: 2px;
+	/*background-color: #E7E5D8;*/
+	overflow: hidden;
+}
+.left,.right{
+	float: left;
+}
+.left{
+	margin-right: 10px;
+}
+.top,.center,.bottom{
+	/*width: 600px;*/
+	border: 1px solid #D2D2D2;
+	overflow: hidden;
+}
+.center{
+	margin: 10px 0;
+}
+.tu{
+	width: 200px;
+}
+.left1{
+	/*width: 200px;*/
+	padding: 21px;
+	background-color: white;
+	float: left;
+}
+.right1{
+	/*width: 358px;*/
+	height: 198px;
+	background-color: #F1F1F1;
+	float: left;
+}
+.hh1{
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom:15px ;
+	padding: 8px 15px;
+}
+.hh2{
+	font-size: 14px;
+	margin: 10px;
+	padding-left: 15px;
+}
+.right1_bottom{
+	overflow: hidden;
+	padding:0 10px;
+}
+.time{
+	float: left;
+	padding-left: 15px;
+}
+.look{
+	float: right;
+	padding-left: 15px;
+}

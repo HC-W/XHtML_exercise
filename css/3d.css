@@ -1,0 +1,82 @@
+html,body,.main{
+	height: 100%;
+}
+.main{
+	transform-style: preserve-3d;
+	perspective: 1000px;
+}
+.red{
+	transform-style: preserve-3d;
+	width: 500px;
+	height: 540px;
+	background-image: url(../img1/1.png);
+	background-position: 100% 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -250px;
+	margin-top: -270px;
+	perspective-origin: top center;
+	animation: move 7s infinite linear;
+	
+}
+@keyframes move{
+	form{transform: rotateY(0deg);}
+	to{transform: rotateY(360deg);}
+}
+.red div{
+	width: 100px;
+	height: 100px;
+	/*background-color: green;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+.red div img{
+	width: 100%;
+}
+.red .r1{
+	transform: translateZ(400px);
+}
+.red .r2{
+	transform: rotateY(30deg) translateZ(400px);
+}
+.red .r3{
+	transform: rotateY(60deg) translateZ(400px);
+}
+.red .r4{
+	transform: rotateY(90deg) translateZ(400px);
+}
+.red .r5{
+	transform: rotateY(120deg) translateZ(400px);
+}
+.red .r6{
+	transform: rotateY(150deg) translateZ(400px);
+}
+.red .r7{
+	transform: rotateY(180deg) translateZ(400px);
+}
+.red .r8{
+	transform: rotateY(210deg) translateZ(400px);
+}
+.red .r9{
+	transform: rotateY(240deg) translateZ(400px);
+}
+
+.red .r10{
+	transform: rotateY(270deg) translateZ(400px);
+}
+
+.red .r11{
+	transform: rotateY(300deg) translateZ(400px);
+}
+
+.red .r12{
+	transform: rotateY(330deg) translateZ(400px);
+}
+
+
+
+

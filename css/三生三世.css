@@ -1,0 +1,101 @@
+/**{
+	margin: 0;
+	padding: 0;
+}*/
+.main{
+	width: 1136px;
+	background-color: #E7E5D8;
+	padding: 5px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.left{
+	/*width: 530px;*/
+	/*padding: 10px;*/
+	/*border: 1px solid blue;*/
+	background-color: white;
+	/*overflow: hidden;*/
+	float: left;
+}
+.left .tu1{
+	width: 150px;
+	margin-right: 10px;
+	padding: 15px;
+	float: left;
+}
+.left_right{
+	/*height: 150px;*/
+	/*padding: 0;*/
+	float: left;
+}
+.left_right .hh1{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: 600;
+	padding: 0;
+	margin: 10px 0;
+}
+.left_right .left_right_center{
+	overflow: hidden;
+}
+.left_right .left_right_center .look{
+	border-right: 1px solid #C7C7C7;
+	float: left;
+}
+.left_right .left_right_center p{
+	color: #C7C7C7;
+	font-size: 13px;
+	margin: 0 3px;
+}
+.left_right .left_right_center .canjia{
+	float: left;
+}
+.left_right .hh2{
+	font-size: 12px;
+	width: 330px;
+	font-family: "微软雅黑";
+	font-weight: 600;
+	line-height: 1.5em;
+	margin-top: 10px;
+}
+.left_right_bottom{
+	height: 25px;
+/*	width: 100px;*/
+	background: #3385FF;
+	color: white;
+}
+
+
+.right{
+	background-color: white;
+	margin: 0px;
+	/*overflow: hidden;*/
+	float: left;
+}
+.right_left,.right_center,.right_right{
+	float: left;
+}
+.right_top{
+	width: 180px;
+	padding: 8px;
+}
+.right_meddle{
+	font-size: 14px;
+	font-weight: 600;
+	padding: 0;
+	margin: 0;
+}
+.right_bottom{
+	overflow: hidden;
+}
+.right_bottom div{
+    color: #C7C7C7;
+	font-size: 13px;
+	margin: 8px 8px 15px 5px;
+}
+.one,.two{
+	float: left;
+}
+.right_right{
+	margin-right: 15px;
+}

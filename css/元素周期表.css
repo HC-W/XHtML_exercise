@@ -1,0 +1,150 @@
+html,body,.table{
+	height: 100%;
+}
+body{
+	background-color: black;
+}
+.table{
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	position: absolute;
+	width: 50px;
+	height: 65px;
+	top: 50%;
+	left: 50%;
+	margin-left: -25px;
+	margin-top: -32.5px;
+}
+
+.table div{
+	width: 45px;
+	height: 55px;
+	background-color: rgb(0,83,83);
+	position: absolute;
+	border: 1px solid #1A7979;
+}
+.table div:nth-child(1){
+	margin-top: -285px;
+	margin-left: -432px;
+	-webkit-animation: h 2s 1 forwards;
+	-o-animation: h 2s 1 forwards;
+	animation: h 2s 1 forwards;
+}
+.table div:nth-child(2){
+	margin-top: -285px;
+	margin-left: ;
+	-webkit-animation: h 2s 1 forwards;
+	-o-animation: h 2s 1 forwards;
+	animation: he 2s 1 forwards;
+}
+.table div:nth-child(3){
+	-webkit-animation: h 2s 1 forwards;
+	-o-animation: h 2s 1 forwards;
+	animation: Li 2s 1 forwards;
+}
+.table div:nth-child(4){
+	-webkit-animation: h 2s 1 forwards;
+	-o-animation: h 2s 1 forwards;
+	animation: be 2s 1 forwards;
+}
+.table div:nth-child(5){
+	-webkit-animation: h 2s 1 forwards;
+	-o-animation: h 2s 1 forwards;
+	animation: b 2s 1 forwards;
+}
+.table div:nth-child(6){
+	-webkit-animation: h 2s 1 forwards;
+	-o-animation: h 2s 1 forwards;
+	animation: c 2s 1 forwards;
+}
+.table div:nth-child(7){
+	-webkit-animation: h 2s 1 forwards;
+	-o-animation: h 2s 1 forwards;
+	animation: n 2s 1 forwards;
+}
+.table div:nth-child(8){
+	-webkit-animation: h 2s 1 forwards;
+	-o-animation: h 2s 1 forwards;
+	animation: o 2s 1 forwards;
+}
+.table div:nth-child(9){
+	-webkit-animation: h 2s 1 forwards;
+	-o-animation: h 2s 1 forwards;
+	animation: f 2s 1 forwards;
+}
+.table div:nth-child(10){
+	-webkit-animation: h 2s 1 forwards;
+	-o-animation: h 2s 1 forwards;
+	animation: ne 2s 1 forwards;
+}
+.table div:nth-child(11){
+	-webkit-animation: h 2s 1 forwards;
+	-o-animation: h 2s 1 forwards;
+	animation: na 2s 1 forwards;
+}
+
+/*@-webkit-keyframes h{
+	from{
+		-webkit-transform: translate(400px, 300px) translateZ(300px);
+		-moz-transform: translate(400px, 300px) translateZ(300px);
+		-ms-transform: translate(400px, 300px) translateZ(300px);
+		-o-transform: translate(400px, 300px) translateZ(300px);
+		transform: translate(400px, 300px) translateZ(300px);
+	}
+	to{
+		-webkit-transform: translate(-477px, -265px) translateZ(0);
+		-moz-transform: translate(-477px, -265px) translateZ(0);
+		-ms-transform: translate(-477px, -265px) translateZ(0);
+		-o-transform: translate(-477px, -265px) translateZ(0);
+		transform: translate(-477px, -265px) translateZ(0);
+	}
+}
+@-webkit-keyframes he{
+	from{
+		-webkit-transform: translate(200px, 200px) translateZ(-300px);
+		-moz-transform: translate(200px, 200px) translateZ(-300px);
+		-ms-transform: translate(200px, 200px) translateZ(-300px);
+		-o-transform: translate(200px, 200px) translateZ(-300px);
+		transform: translate(200px, 200px) translateZ(-300px);
+	}
+	to{
+		-webkit-transform: translate(424px, -265px) translateZ(0);
+		-moz-transform: translate(424px, -265px) translateZ(0);
+		-ms-transform: translate(424px, -265px) translateZ(0);
+		-o-transform: translate(424px, -265px) translateZ(0);
+		transform: translate(424px, -265px) translateZ(0);
+	}
+}
+@-webkit-keyframes Li{
+	from{}
+	to{}
+}
+@-webkit-keyframes be{
+	from{}
+	to{}
+}
+@-webkit-keyframes b{
+	from{}
+	to{}
+}
+@-webkit-keyframes c{
+	from{}
+	to{}
+}
+@-webkit-keyframes n{
+	from{}
+	to{}
+}
+@-webkit-keyframes o{
+	from{}
+	to{}
+}
+
+@-webkit-keyframes f{
+	from{}
+	to{}
+}
+@-webkit-keyframes ne{
+	from{}
+	to{}
+}*/
