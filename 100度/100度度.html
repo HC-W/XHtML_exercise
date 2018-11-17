@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+		.bg_white{
+			width: 80%;
+			margin: 40px auto;
+			height: 111px;
+			background-color: white;
+			border:1px solid #ccc;
+			border-radius: 8px;
+			position: relative;
+		}
+		.bg_red{
+			width: 100%;
+			height: 70px;
+			background-color: red;
+			border-radius: 8px;
+			margin-top: 15px;
+			border: 1px solid #c40d0e;
+			box-sizing: border-box;
+		}
+		.con{
+			position: absolute;
+			top: -3px;
+			left: 30px;
+		}
+		.con>div{
+			float: left;
+		}
+		.center{
+			margin-left: 40px;
+		}
+		.c_top{
+			margin-top: -10px;
+			overflow: hidden;
+		}
+		.c_top a{
+			display: inline-block;
+			width: 90px;
+			height: 27px;
+			float: left;
+			margin-left: 1px;
+			border: 1px solid #f8d0bf;
+			border-bottom:none;
+			background-color: #fbfbfb;
+			border-top-left-radius: 10px;
+			border-top-right-radius: 10px;
+			text-align: center;
+			line-height: 27px;
+			text-decoration: none;
+			color: black;
+		}
+		.c_top a:hover{
+			color: white;
+			font-weight: bolder;
+			background-color: red;
+		}
+		form.c_middle{
+			height: 70px;
+			line-height: 70px;
+			position: relative;
+		}
+		.input1{
+			width: 460px;
+			height: 20px;
+			border-radius: 4px;
+			border: 1px solid #ccc;
+			text-indent: 1em;
+			outline: none;
+		}
+		.input2{
+			width: 60px;
+			height: 20px;
+			text-indent: 1.5em;
+			border-radius: 10px;
+			background-color: white;
+			border: none;
+			box-shadow: 1px 1px 1px #5e5e5e;
+			font-size: 12px;
+			margin-left: 10px;
+			outline: none;
+		}
+		.input3{
+			position: absolute;
+			right: 36px;
+			top: 28px;
+		}
+		::-webkit-input-placeholder{
+			color: #ea7a7a;
+		}
+		.c_bottom{
+			height: 31px;
+			line-height: 28px;
+			font-size: 13px;
+			overflow: hidden;
+		}
+		.update{
+			vertical-align: middle;
+			position: relative;
+			bottom: 2px;
+		}
+		.c_bottom span{
+			margin-left: 5px;
+		}
+		.span1{
+			color: red;
+			font-weight: bolder;
+		}
+		.span2{
+			color: #999;
+		}
+		.cb_left,.cb_right{
+			float: left;
+		}
+		.cb_right{
+			margin-left: 60px;
+		}
+		.up,.down{
+			border: 5px solid red;
+			border-right-color: white;
+			border-left-color: white;
+		}
+		.up{
+			border-top-color: white;
+		}
+		.down{
+			border-bottom-color: white;
+			margin-top: 5px;
+		}
+		.right{
+			margin-top: 30px;
+			margin-left: 20px;
+			line-height: 25px;
+		}
+		.right a{
+			text-decoration: none;
+			color: white;
+			font-weight: bolder;
+		}
+	</style>
+</head>
+<body>
+	<div class="bg_white">
+		<div class="bg_red">
+		</div>
+		<div class="con">
+			<div class="left">
+				<img src="wocao1.png" alt="">
+			</div>
+			<div class="center">
+				<div class="c_top">
+					<a href="###">搜店</a>
+					<a href="###">地址</a>
+					<a href="###">优惠券</a>
+					<a href="###">全文</a>
+					<a href="###">视频</a>
+				</div>
+				<form action="http://www.baidu.com" class="c_middle">
+					<input class="input1" placeholder="例如：荷塘鱼坊烤鱼 或 樱花日本料理" type="text" name="wd">
+					<input class="input2" type="submit" value="搜索">
+					<img class="input3" src="搜索放大镜.png" alt="">
+				</form>
+				<div class="c_bottom">
+					<div class="cb_left">
+						<img class="update" src="update.png" alt="">
+						<span class="span1">萱萱</span>
+						<span class="span2">5分钟前</span>
+						<span class="span3">写了一篇新文章：那些灿烂的华美的瞬间...</span>
+					</div>
+					<div class="cb_right">
+						<div class="up"></div>
+						<div class="down"></div>
+					</div>
+				</div>
+			</div>
+			<div class="right">
+				<p>
+					<a href="">金钱豹、</a><a href="">大江南、</a><a href="">湘水之珠、</a><a href="">德语楼</a>
+				</p>
+				<p>
+					<a href="###">荷塘鱼坊烤鱼、</a>
+					<a href="###">soho尚都、</a>
+					<a href="###">湘味楼...</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

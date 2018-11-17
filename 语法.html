@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>XHTML语法</title>
+		<link rel="stylesheet" href="css/语法.css" type="text/css"/>
+	</head>
+	<body>
+		<div class="main">
+			<h1>XHTML语法</h1>
+			<input type="button" value="上一节" />&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="button" value="下一节" />
+			<br /><hr />
+			<p><strong>编写 XHTML 代码需要纯净的 HTML语法。</strong></p>
+			<hr />
+			<h2>更多的 XHTML语法规则：</h2>
+				<div>
+					<ul>
+						<li>属性名称必须小写</li>
+						<li>属性值必须加引号</li>
+						<li>属性不能简写</li>
+						<li>用 Id 属性代替 name 属性</li>
+						<li>XHTML DTD 定义了强制使用的 HTML 元素</li>
+					</ul>
+			</div>
+			<br />
+			<hr />
+			<h2>属性名称必须小写</h2>
+			<p>这是错误的：</p>
+			<div>
+				<pre class="sp">   &lt;table <span>WIDTH</span>="100%"&gt;</pre>
+			</div>
+			<p>这是正确的：</p>
+			<div>
+				<pre class="sp">  &lt;table <span>width</span>="100%"&gt;</pre>
+			</div>
+			<br />
+			<hr />
+			<h2>属性值必须加引导</h2>
+			
+			<p>这是错误的：</p>
+			<div class="sp">
+				<pre class="sp">   &lt;table <span>WIDTH</span>=100%&gt;</pre>
+			</div>
+			<p>这是正确的：</p>
+			<div class="sp">
+				<pre class="sp">  &lt;table <span>width</span>="100%"&gt;</pre>
+			</div>
+			<br />
+			<hr />
+			<h2>属性不能简写</h2>
+			
+			<p>这是错误的:</p>
+			<div>
+				<pre>   &lt;input checked&gt;
+   &lt;input readonly&gt;
+   &lt;input disbaled&gt;
+   &lt;option selected&gt;
+   &lt;frame noresize&gt;</pre>
+			</div>
+			<p>这是正确的:</p>
+			<div>
+				<pre>   &lt;input checked=&quot;checked&quot; /&gt; 
+   &lt;input readonly=&quot;readonly&quot; /&gt;
+   &lt;input disbaled=&quot;daiabled&quot; /&gt;
+   &lt;option selected=&quot;selected&quot; /&gt;
+   &lt;frame noresize=&quot;noresize&quot; /&gt;</pre>
+			</div>
+			<p>下面是一个HTML的简写属性列表，以及在 XHTML 中的改写</p>
+			<table class="dtab">
+				<tr>
+					<th class="tb1">HTML</th>
+					<th>XHTML</th>
+				</tr>
+				<tr >
+					<td class="tb1">compact</td>
+					<td>compact=&quot;compact&quot;</td>
+				</tr>
+				<tr class="tr1">
+					<td class="tb1">checked</td>
+					<td>checked="checked"</td>
+				</tr>
+				<tr>
+					<td class="tb1">declare</td>
+					<td>declare="declare"</td>
+				</tr>
+				<tr class="tr1">
+					<td class="tb1">readonly</td>
+					<td>readonly="readonly"</td>
+				</tr>
+				<tr>
+					<td class="tb1">disabled</td>
+					<td>disabled="disabled"</td>
+				</tr>
+				<tr class="tr1">
+					<td class="tb1">selected</td>
+					<td>selected="selected"</td>
+				</tr>
+				<tr>
+					<td class="tb1">defer</td>
+					<td>defer="defer"</td>
+				</tr>
+				<tr class="tr1">
+					<td class="tb1">ismap</td>
+					<td>ismap="ismap"</td>
+				</tr>
+				<tr>
+					<td class="tb1">nohref</td>
+					<td>nohref="nohref"</td>
+				</tr>
+				<tr class="tr1">
+					<td class="tb1">noshade</td>
+					<td>noshade="noshade"</td>
+				</tr>
+				<tr>
+					<td class="tb1">nowrap</td>
+					<td>nowrap="nowrap"</td>
+				</tr>
+				<tr class="tr1">
+					<td class="tb1">multiple</td>
+					<td>multiple="multiple"</td>
+				</tr>
+				<tr>
+					<td class="tb1">noresize</td>
+					<td>noresize="noresize"</td>
+				</tr>
+			</table>
+			<br />
+			<hr />
+			<h2>用 id 属性代替 name属性</h2>
+			<p>HTML 4.01 针对下列元素定义 name 属性：a, applet, frame, iframe, img, 和map。</p>
+			<p>在 XHTML 中不鼓励使用 name 属性，应该使用 id 取而代之。</p>
+			<p>这是错误的：</p>
+			<div>
+				<pre class="sp">   &lt;img src="picture.gif" <span>name</span>="picture1" /&gt;</pre>
+			</div>
+			<p>这是正确的：</p>
+			<div>
+				<pre class="sp">  &lt;img src="picture.gif" <span>id</span>="picture1" /&gt;</pre>
+			</div>
+			<h2>重要的兼容性提示:</h2>
+			<p>你应该在 "/" 符号前添加一个额外的空格，以使你的 XHTML 与当今的浏览器相兼容。</p>
+			<hr />
+			<h2>语言属性</h2>
+			<p>lang 属性应用于几乎所有的 XHTML 元素。它定义元素内部的内容的所用语言的类型。<br/>
+				如果在某元素中使用 lang 属性，就必须添加额外的 xml:lang，像这样：
+			</p>
+			<div>
+				<pre class="sp">  &lt;div <span>lang="no" xml:lang="no"</span>&gt;Heia Norge!&lt;/div&gt;</pre>
+			</div>
+			<br />
+			<hr />
+			<h2>强制使用的 XHTML元素</h2>
+			<p>所有 XHTML 文档必须进行文件类型声明（DOCTYPE declaration）。在 XHTML 文档中必须存在html、head、body元素，而<br /> title 元素必须位于在 head 元素中。</p>
+			<p>下面是一个最小化的 XHTML 文件模板：</p>
+			<div>
+				<pre class="sp">  <span>&lt;!DOCTYPE Doctype goes here&gt;</span>
+   &lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+   &lt;head&gt;
+   &lt;title&gt;Title goes here&lt;/title&gt;
+   &lt;/head&gt;
+	
+   &lt;body&gt;
+   &lt;/body&gt;
+	
+   &lt;/html&gt;</pre>
+			</div>
+			<p class="tip" class="sp"><span>提示：</span>文件类型声明并非 XHTML 文档自身的组成部分。它并不是 XHTML 元素，也没有关闭标签。</p>
+			<p class="tip" class="sp"><span>提示：</span>在 XHTML 中，&lt;html&gt; 标签内的 xmlns 属性是必需的。然而，即使当 XHTML 文档中没有这个属性时，w3.org 的验证<br/>工具也不会提示错误。这是因为，"xmlns=http://www.w3.org/1999/xhtml" 是一个固定的值，即使你没有把它包含在代码<br/>中，这个值也会被添加到 &lt;html&gt; 标签中。</p>
+			<p>你会在下一章学习更多关于 XHTML 文档类型声明的知识。</p>
+			<hr />
+			<br />
+		    <input type="button" value="上一节" />&nbsp;&nbsp;&nbsp;&nbsp;
+		    <input type="button" value="下一节" />
+		</div>
+	</body>
+</html>

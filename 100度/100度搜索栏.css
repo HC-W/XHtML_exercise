@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.all{
+	width: 960px;
+	margin: 0 auto;
+}
+.top{
+	margin-left: 200px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+}
+.top a{
+	display: inline-block;
+	width: 80px;
+	height: 26px;
+	text-decoration: none;
+	color: black;
+	border: 1px solid #f8d0bf;
+	float: left;
+	text-align: center;
+	line-height: 26px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color: #fbfbfb;
+}
+.top a:hover{
+	background-color: #e21c01;
+	color: white;
+	border-color: #e21c01;
+}
+.bottom{
+	overflow: hidden;
+	margin-top: 10px;
+}
+.left,.center,.right{
+	float: left;
+}
+.center{
+	background-image: url("滑动门_中.png");
+	height: 116px;
+}
+.c_top{
+	overflow: hidden;
+}
+.ct_left,.ct_right{
+	float: left;
+}
+.input1{
+	width: 406px;
+	height: 20px;
+	text-indent: 1em;
+}
+::-webkit-input-placeholder{
+	color: #ea7a7a;
+}
+.input2{
+	width: 61px;
+	height: 23px;
+	background-color: white;
+	border: none;
+	border-radius: 10px;
+	text-indent: 1em;	
+}
+.ct_left{
+	position: relative;
+}
+.find{
+	position: absolute;
+	right: 36px;
+	top: 8px;
+}
+.center{
+	/*display: table;*/
+}
+.c_top{
+	/*display: table-cell;*/
+	/*vertical-align: top;*/
+}
+.ct_left{
+
+}
+.ct_right a{
+	font-size: 14px;
+}
+.cb_left a{
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
+}
+.text1{
+	color: red;
+}
+.text2{
+	color: #999;
+}
+.c_bottom{
+	overflow: hidden;
+}
+.cb_left,.cb_right{
+	float: left;
+}
+.c_top,.c_bottom{
+	margin-top: 30px;
+}
+.ct_left{
+	line-height: 33px;
+}
+.cb_right{
+	line-height: 5px;
+	margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
